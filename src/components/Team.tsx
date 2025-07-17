@@ -390,7 +390,7 @@ const Team = () => {
                 <img 
                   src={member.image} 
                   alt={member.name}
-                  className="w-full h-64 object-cover"
+                  className="w-40 h-40 object-contain rounded-full mx-auto mt-6 bg-white shadow-md border-4 border-gray-200 dark:border-gray-700"
                 />
                 <div className="absolute top-4 right-4">
                   <span className={`px-3 py-1 rounded-full text-xs font-medium border ${getStatusColor(member.status)}`}>
