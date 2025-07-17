@@ -84,6 +84,24 @@ const Team = () => {
       };
       
       setTeamMembers([...teamMembers, member]);
+
+      // Enviar dados para Google Sheets via Apps Script
+      fetch('SUA_URL_DO_SCRIPT', {
+        method: 'POST',
+        body: JSON.stringify({
+          nome: member.name,
+          cargo: member.role,
+          email: member.email,
+          linkedin: member.linkedin,
+          github: member.github,
+          skills: member.skills.join(', '),
+          experiencia: member.experience,
+          status: member.status
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
       setNewMember({
         name: '',
         role: '',
