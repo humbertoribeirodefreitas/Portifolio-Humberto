@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-2xl border-4 border-white dark:border-gray-700">
               <img 
-                src="/h.jpg" 
+                src="/hto1.png" 
                 alt="Humberto Ribeiro de Freitas"
                 className="w-full h-full object-cover"
               />
