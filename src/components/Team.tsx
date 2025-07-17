@@ -43,7 +43,7 @@ const Team = () => {
       name: "Humberto Ribeiro de Freitas",
       role: "Analista de Sistemas Sênior",
       description: "Especialista em desenvolvimento full-stack com foco em soluções sob demanda e arquitetura de sistemas.",
-      image: "/src/assets/humberto copy.jpg",
+      image: "/hto1.png",
       email: "sansunghumberto13@gmail.com",
       linkedin: "https://www.linkedin.com/in/humberto-ribeiro-de-freitas-b15208340",
       github: "https://github.com/humbertoribeirodefreitas",
