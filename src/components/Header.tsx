@@ -72,6 +72,12 @@ const Header = () => {
               <span>Contato</span>
             </button>
             </nav>
+            <button
+              onClick={() => window.open('/admin', '_blank')}
+              className="ml-4 px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded font-bold transition-colors"
+            >
+              Painel Admin
+            </button>
             <ThemeToggle />
           </div>
 
