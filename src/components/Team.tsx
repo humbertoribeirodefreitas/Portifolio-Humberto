@@ -194,7 +194,7 @@ const Team = () => {
               </button>
               
               <button
-                onClick={() => setShowPartnerRegistration(true)}
+                onClick={() => setShowAddForm(true)}
                 className="inline-flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
               >
                 <Handshake className="h-5 w-5" />
